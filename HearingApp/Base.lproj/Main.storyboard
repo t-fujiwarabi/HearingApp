@@ -59,7 +59,6 @@
                     <tabBarItem key="tabBarItem" title="Item 2" id="S8s-8g-wmg"/>
                     <connections>
                         <outlet property="sound40dBpickerView" destination="ezM-pH-Dg9" id="8tP-iJ-dPC"/>
-                        <outlet property="あああ" destination="ezM-pH-Dg9" id="uhp-Ar-O1X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3U-yZ-rtJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -89,6 +88,9 @@
                                     <segment title="1000Hz"/>
                                     <segment title="2000Hz"/>
                                 </segments>
+                                <connections>
+                                    <action selector="frequencyChanged:" destination="FdQ-6M-tcg" eventType="valueChanged" id="k8c-ae-d7R"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="音圧" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bbk-BH-pKK">
                                 <rect key="frame" x="50" y="218" width="165" height="33"/>
@@ -139,6 +141,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="BKI-Al-JjC"/>
                     <connections>
+                        <outlet property="frequencySegment" destination="rnz-7O-6x9" id="QWT-Mc-giI"/>
                         <outlet property="soundButton" destination="g14-DD-pOg" id="sXy-wK-0BC"/>
                     </connections>
                 </viewController>
