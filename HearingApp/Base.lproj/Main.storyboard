@@ -58,7 +58,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="S8s-8g-wmg"/>
                     <connections>
-                        <outlet property="sound40dBpickerView" destination="ezM-pH-Dg9" id="8tP-iJ-dPC"/>
+                        <outlet property="sound40PickerView" destination="ezM-pH-Dg9" id="ZLV-JC-zAD"/>
+                        <outlet property="sound45PickerView" destination="0pY-EP-vYp" id="8qA-vF-p07"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3U-yZ-rtJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
